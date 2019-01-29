@@ -8,6 +8,7 @@ import styled from 'styled-components';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Main from './components/Main';
+import LinkRouter from './components/LinkRouter';
 
 const url = process.env.PUBLIC_URL + '/img/bg.png';
 
@@ -45,7 +46,8 @@ class App extends Component {
           </MenuWrapper>  
           <MainWrapper>
             <Grid>
-              <Main />
+              {/*<Main />*/}
+              <LinkRouter />
             </Grid>
           </MainWrapper>
       </div>

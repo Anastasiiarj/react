@@ -18,7 +18,6 @@ const Repair = styled.div`
 		line-height: 30px;
 	}
 `
-
 const LightText = styled.div`
 	color: #ffffff;
 	font-size: 18px;
